@@ -12,6 +12,12 @@ body {
     padding: 80px 0;
 }
 
+@media (max-width: 767.98px) {
+    .hero {
+        padding: 40px 0;
+    }
+}
+
 .hero h1 {
     font-weight: 700;
 }
