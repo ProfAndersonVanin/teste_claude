@@ -1,0 +1,16 @@
+# Arquivo de acompanhamento do projeto (uso interno, não versionado)
+PROGRESSO.md
+
+# Configuração local com dados sensíveis (senha do banco, etc.)
+config.local.php
+
+# Arquivos de sistema
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Pastas de dependências (caso venham a ser usadas futuramente)
+/vendor/
+/node_modules/
