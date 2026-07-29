@@ -14,3 +14,6 @@ if (!$conexao) {
 }
 
 mysqli_set_charset($conexao, 'utf8mb4');
+
+// Caminho base do projeto, usado para montar links e redirecionamentos
+define('BASE_URL', '/teste_claude/');
