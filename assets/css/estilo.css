@@ -1,0 +1,33 @@
+/* Estilos personalizados do Sistema de Biblioteca */
+
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Landing page */
+.hero {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-weight: 700;
+}
+
+.card-funcionalidade {
+    height: 100%;
+    border: 1px solid #dee2e6;
+}
+
+.card-funcionalidade img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
