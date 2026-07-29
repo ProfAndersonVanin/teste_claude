@@ -52,6 +52,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div class="alert alert-danger"><?php echo htmlspecialchars($erro); ?></div>
                         <?php endif; ?>
 
+                        <?php if (isset($_GET['cadastrado'])): ?>
+                            <div class="alert alert-success">Cadastro realizado com sucesso! Faça login abaixo.</div>
+                        <?php endif; ?>
+
                         <form method="POST" action="login.php">
                             <div class="mb-3">
                                 <label for="email" class="form-label">E-mail</label>
